@@ -1,0 +1,24 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+background: linear-gradient(to right, #CC95C0, #DBD4B4, #7AA1D2 );
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body{
+    background: linear-gradient(to bottom right, #12c2e9, #c471ed, #f64f59);
+    text-align: center;
+}
+
+canvas{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+
