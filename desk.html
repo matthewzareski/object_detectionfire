@@ -32,7 +32,7 @@ canvas.center();
 }
 
 function preload(){
-    img = loadImage("bedroom.jpg");
+    img = loadImage("DESK.jpg");
 }
 
 function draw(){
@@ -49,7 +49,7 @@ function draw(){
     stroke("#FF0000");
     rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
 }
-    }   }
+    }
 
 function modelLoaded(){
     console.log("Model Loaded!");
@@ -63,7 +63,7 @@ function gotResult(error, results){
     }
     console.log(results);
     objects = results;
-}   
+}   }
 
     </script>
 </body>
